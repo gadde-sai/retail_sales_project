@@ -35,7 +35,7 @@ CREATE TABLE retail_sales
 );
 ```
 
-### 2. Data Exploration & Cleaning
+### 2. Data Cleaning
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
 ```sql
@@ -52,7 +52,7 @@ WHERE
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
 ```
 
-### 3. Data Analysis & Findings
+### 3. Data Analysis
 
 The following SQL queries were developed to answer specific business questions:
 **to check now how many sales we have**:
